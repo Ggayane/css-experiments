@@ -1,0 +1,58 @@
+
+<img src="./face.png" />
+
+
+<style>
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+  }
+
+  img {
+    width: 40vw;
+    animation: changingColors 6s infinite;
+  }
+
+  @keyframes changingColors {
+    0% {
+      filter: hue-rotate(0);
+      -webkit-filter: hue-rotate(0);
+      -moz-filter: hue-rotate(0);
+      -khtml-filter: hue-rotate(0);
+      -ms-filter: hue-rotate(0);
+    }
+    25% {
+      filter: hue-rotate(72deg);
+      -webkit-filter: hue-rotate(72deg);
+      -moz-filter: hue-rotate(72deg);
+      -khtml-filter: hue-rotate(72deg);
+      -ms-filter: hue-rotate(72deg);
+    }
+    50% {
+      filter: hue-rotate(180deg);
+      -webkit-filter: hue-rotate(180deg);
+      -moz-filter: hue-rotate(180deg);
+      -khtml-filter: hue-rotate(180deg);
+      -ms-filter: hue-rotate(180deg);
+    }
+    70% {
+      filter: hue-rotate(252deg);
+      -webkit-filter: hue-rotate(252deg);
+      -moz-filter: hue-rotate(252deg);
+      -khtml-filter: hue-rotate(252deg);
+      -ms-filter: hue-rotate(252deg);
+    }
+    100% {
+      filter: hue-rotate(324deg);
+      -webkit-filter: hue-rotate(324deg);
+      -moz-filter: hue-rotate(324deg);
+      -khtml-filter: hue-rotate(324deg);
+      -ms-filter: hue-rotate(324deg);
+    }
+  }
+</style>
