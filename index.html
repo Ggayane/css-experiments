@@ -1,29 +1,33 @@
-
 <style>
   body {
     margin: 0;
-    padding: 0;
-  }
-
-  main {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: lightpink;
   }
-
-  .text {
-    font-size: 13vw;
-    width: 80%;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: monospace;
+  .start-button {
+    display: inline-block;
+    margin-right: .1rem;
+    background: #1104f4;
+    cursor: pointer;
+  }
+  .start-button span {
+    color: #1104f4;
+    background: lightpink;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 1.6rem;
+    display: inline-block;
+    border: 1px solid #1104f4;
+    font-family: sans-serif;
+  }
+  .start-button:hover span {
+    -webkit-transform: translate3d(-.25rem,-.25rem,0);
+    transform: translate3d(-.25rem,-.25rem,0);
   }
 </style>
-
-<main>
-  <div class="text">
-    All these open windows, but no fresh air.
-  </div>
-</main>
+<div class="start-button">
+  <span>SHOW ME</span>
+</div>
+<script src="./index.js"></script>

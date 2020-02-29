@@ -1,68 +1,28 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
+  main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 13vw;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+  }
+</style>
 
 <main>
-  <div class="card">
-    <div class="image"></div>
-    <div class="text">
-      In life, unlike chess, the game continues after checkmate.
-    </div>
+  <div class="text">
+    All these open windows, but no fresh air.
   </div>
 </main>
-
-
-<style>
- :root {
-  --imgUrl: url('https://karsh.org/wordpress/wp-content/uploads/2020/01/Yousuf-Karsh-Isaac-Asimov-1985.jpg');
-  --cardWidth: 80vw;
-}
-body {
-  background: black;
-  margin: 0;
-  overflow-x: hidden;
-}
-main {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text {
-  background: var(--imgUrl);
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 10rem;
-  font-weight: bold;
-  font-family: sans-serif;
-  /* width: calc(var(--cardWidth) / 2); */
-  width: 50%;
-  height: 100%;
-  word-break: break-all;
-  line-height: 0.7;
-}
-.image {
-  background: var(--imgUrl);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 100%;
-  /* width: calc(var(--cardWidth) / 2); */
-  width: 50%;
-  /* transition: all .3s ease-in-out; */
-}
-/* .image:hover {
-  position: absolute;
-  width: 100vw;
-} */
-.card {
-  width: var(--cardWidth);
-  /* width: 100vw; */
-  height: 90vh;
-  display: flex;
-}
-</style>
