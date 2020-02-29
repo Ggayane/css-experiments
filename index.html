@@ -1,78 +1,29 @@
-<div class="wrapper">
-  <div class="source-sans">
-    <span class="work">WORK</span>LIFE
-  </div>
-  <div class="static">BALANCE</div>
-</div>
-
 
 <style>
-  @font-face {
-    font-family: 'Inconsolata';
-    src: url('./Inconsolata-VF.ttf');
-    font-weight: 275 900;
-    font-stretch: 50% 200%;
-  }
-
   body {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  main {
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
-    color: white;
-    font-size: 8em;
-    font-family: 'Inconsolata';
-  }
-  .wrapper {
-    white-space: nowrap;
-    width: 80vw;
   }
 
-  .static {
-    font-size: 30px;
-    font-variation-settings: "wght"900, "wdth"200;
-  }
-
-  .source-sans {
-    display: flex;
-    font-variation-settings: "wght"275, "wdth"50;
+  .text {
+    font-size: 13vw;
+    width: 80%;
     text-align: center;
-    animation: swapthings 3s infinite both cubic-bezier(0.17, 0.04, 0.04, 0.99);
-  }
-
-  .work {
-    animation: swapthings2 3s infinite both cubic-bezier(0.17, 0.04, 0.04, 0.99);
-  }
-
-  @keyframes swapthings {
-    0% {
-      font-variation-settings: "wght"275, "wdth"50;
-    }
-
-    50% {
-      font-variation-settings: "wght"900, "wdth"200;
-    }
-
-    100% {
-      font-variation-settings: "wght"275, "wdth"50;
-    }
-  }
-
-  @keyframes swapthings2 {
-    0% {
-      font-variation-settings: "wght"900, "wdth"200;
-    }
-
-    50% {
-      font-variation-settings: "wght"275, "wdth"50;
-    }
-
-    100% {
-      font-variation-settings: "wght"900, "wdth"200;
-    }
+    text-transform: uppercase;
+    font-family: monospace;
   }
 </style>
+
+<main>
+  <div class="text">
+    All these open windows, but no fresh air.
+  </div>
+</main>
